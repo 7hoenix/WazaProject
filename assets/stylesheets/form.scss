@@ -1,0 +1,41 @@
+.form {
+  width: 100%;
+}
+
+.form__skill-name select, .form__skill-activity input, .form__submit button, .form__skill-level {
+  width: 100%;
+}
+
+.form__skill-name select {
+  background-color: $background-alt;
+  color: $main-text;
+  font-size: 1em;
+  padding: 1em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.form__skill-activity input {
+}
+
+.form__submit button {
+}
+
+.form__skill-level {
+
+}
+
+.form__level {
+  float: left;
+  width: 33%;
+}
+
+// input[type="radio"] {
+//   visibility: hidden;
+//   color: red;
+// }
+
+input[type="radio"]:checked ~ label {
+  background-color: red;
+  color: red;
+}
